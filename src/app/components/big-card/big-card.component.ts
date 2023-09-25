@@ -13,7 +13,8 @@ export class BigCardComponent implements OnInit {
   cardTitle:string = "Novo homem de ferro";
   @Input()
   cardDescription:string = "nono filme";
-
+  @Input()
+  Id:string = "0";
   constructor() { }
 
   ngOnInit(): void {
